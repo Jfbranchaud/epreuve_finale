@@ -41,7 +41,7 @@ get_header();
 		if ($query->have_posts() ) {
 	?>
 
-<article  class="page type-page status-publish has-post-thumbnail hentry entry">
+<article  class="page type-page status-publish has-post-thumbnail hentry entry mon_image">
 	<div class="entry-content">
 		<div class="wp-block-columns has-4-columns">
 		<?php while ( $query->have_posts()) {

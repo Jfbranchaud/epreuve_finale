@@ -1,6 +1,20 @@
 .site{
-background-color:black;
+background-color:whitesmoke;
+}
+.site-content{
+background-color:whitesmoke;
+
 }
 .wp-block-image img{
-border : 3px solid #aaa;
+border : 3px solid black;
 }
+
+.wp-block-media-text__media img{
+border : 3px solid black;
+}
+
+/*.wp-block-media-text__content{
+background-color:blanchedalmond;
+
+
+}*/
