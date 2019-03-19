@@ -689,14 +689,6 @@ body.page .main-navigation {
 /*--------------------------------------------------------------
 ## cours
 --------------------------------------------------------------*/
-.site {
-  background-color: black;
-}
-
-.site-content {
-  background-color: whitesmoke;
-}
-
 #liste-cours {
   margin-bottom: 0;
 }
@@ -717,12 +709,12 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-2 {
-  background-color: #d3a145;
+  background-color: #B27400;
   color: #aaa;
 }
 
 .liste-cours .session-3 {
-  background-color: #00bfff;
+  background-color: #45AFD3;
   color: #fff;
 }
 
@@ -774,6 +766,10 @@ body.page .main-navigation {
   }
 }
 
+.liste-cours .entry-title {
+  border: 10px white;
+}
+
 .liste-cours .entry-title h3 {
   font-size: .5em;
 }
@@ -787,11 +783,11 @@ body.page .main-navigation {
 }
 
 .site {
-  background-color: whitesmoke;
+  background-color: #B28300;
 }
 
 .site-content {
-  background-color: whitesmoke;
+  background-color: #19C9FF;
 }
 
 .wp-block-image img {
@@ -802,11 +798,11 @@ body.page .main-navigation {
   border: 3px solid black;
 }
 
-/*.wp-block-media-text__content{
-background-color:blanchedalmond;
+.wp-block-media-text__content {
+  background-color: blanchedalmond;
+  margin-left: 50px;
+}
 
-
-}*/
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
@@ -819,6 +815,7 @@ background-color:blanchedalmond;
             transform: translateY(0) rotateX(0deg);
   }
 }
+
 @keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
