@@ -23,7 +23,7 @@
 		echo wp_get_attachment_image( $image, $size );
 	}
 
-	// add_post_meta($post_id, '_thumbnail_id', $attachment_id);
+	//add_post_meta($post_id, '_thumbnail_id', $attachment_id);
 	
 	?>
 		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>

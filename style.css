@@ -643,9 +643,9 @@ body.page .main-navigation {
           flex-direction: column;
   min-width: 78vw;
   min-height: 50vh;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .site-header.featured-image .site-featured-image .entry-header {
@@ -679,10 +679,10 @@ body.page .main-navigation {
     min-height: 35vh;
   }
   .site-header.featured-image .site-branding .site-title {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .site-header.featured-image .site-branding .site-description {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
 
@@ -781,6 +781,14 @@ body.page .main-navigation {
 
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
+}
+
+.site {
+  background-color: black;
+}
+
+.wp-block-image img {
+  border: 3px solid #aaa;
 }
 
 @-webkit-keyframes anim1 {
