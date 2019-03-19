@@ -803,6 +803,10 @@ body.page .main-navigation {
   margin-left: 50px;
 }
 
+.entry-content p {
+  background-color: blanchedalmond;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);

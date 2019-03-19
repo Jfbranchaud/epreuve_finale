@@ -22,13 +22,12 @@ get_header();
 				the_post();
 // à modifier  utiliser la fonction in_category() pour que 'single-nouvelle'
 // ne s'exécute que pour les articles de catégorie nouvelle ou événement
-					get_template_part( 'template-parts/content/content', 'single-nouvelle' );
+					
 			
-
-					if ( in_category('nouvelle','evenement') ) {
-						include 'single-nouvelle.php';
-					} elseif ( in_category('cours') ) {
-						include 'category-cours.php';
+				if ( in_category('nouvelle evenemenent') ) {
+					get_template_part( 'template-parts/content/content', 'single-nouvelle' );	
+					} else {
+					get_template_part( 'template-parts/content/content', 'single' );
 
 					}
 
