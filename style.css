@@ -783,23 +783,23 @@ body.page .main-navigation {
 }
 
 .site {
-  background-color: #B28300;
+  background-color: #C3D388;
 }
 
 .site-content {
-  background-color: #19C9FF;
+  background-color: #E6B7FF;
 }
 
 .wp-block-image img {
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
 .wp-block-media-text__media img {
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
 .wp-block-media-text__content {
-  background-color: blanchedalmond;
+  background-color: #FFC76A;
   margin-left: 50px;
 }
 
