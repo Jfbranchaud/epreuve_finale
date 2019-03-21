@@ -24,7 +24,7 @@ get_header();
 // ne s'exécute que pour les articles de catégorie nouvelle ou événement
 					
 			
-				if ( in_category(array('nouvelle','evenemenent')) ) {
+				if ( in_category(array('nouvelle','evenemenent'))) ) {
 					get_template_part( 'template-parts/content/content', 'single-nouvelle' );	
 					} else {
 					get_template_part( 'template-parts/content/content', 'single' );
